@@ -26,16 +26,16 @@ function Header() {
 
 
             <div className = "header__input">
-                <input type = "text" />
-                <SearchIcon/>
+                <input placeholder = "Search"  type = "text" />
+                <SearchIcon className = "header__inputButton"/>
             </div>
 
 
             <div className = "header__icons">
-                <VideoCallIcon/>
-                <AppsIcon/>
-                <NotificationsIcon/>
-                <Avatar
+                <VideoCallIcon className="header__icon"/>
+                <AppsIcon className="header__icon"/>
+                <NotificationsIcon className="header__icon"/>
+                <Avatar  
                     alt= "George Nikoglou"
                     src = "https://avatars3.githubusercontent.com/u/63461774?s=460&u=bf590525c5c5b4cbebfd242bcc20d9ad17606aa8&v=4"
                 />
