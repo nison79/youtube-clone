@@ -12,7 +12,7 @@ function VideoCard({image ,title , channel , timestamp, views , channelImage}) {
                 alt={channel} 
                 src ={channelImage}
                 />
-                <div className = "videoCard_text">
+                <div className = "videoCard__text">
                     <h4>{title}</h4>
                     <p>{channel}</p>
                     <p>
