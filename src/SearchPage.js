@@ -2,6 +2,7 @@ import React from 'react';
 import "./SearchPage.css";
 import TuneOutlinedIcon from "@material-ui/icons/TuneOutlined";
 import ChannelRow from './ChannelRow';
+import VideoRow from './VideoRow';
 
 function SearchPage() {
     return (
@@ -21,7 +22,27 @@ function SearchPage() {
                 description ="The official page of the artist Thanasis Papakonstantinou"
             />
 
+            <hr/>
 
+            <VideoRow
+            views="1.5M"
+            subs="34k"
+            description = "Μεσα στην κοιλαδα των τεμπων"
+            timestamp = "1 minute ago"
+            channel = "Thanasis Papakonstantinou"
+            title= " Μεσα στην κοιλαδα των Τεμπων"
+            image = "https://www.larisanews.gr/wp-content/uploads/2013/03/tempi1-525.gif"
+            />
+
+            <VideoRow
+            views="1.5M"
+            subs="34k"
+            description = "Μεσα στην κοιλαδα των τεμπων"
+            timestamp = "1 minute ago"
+            channel = "Thanasis Papakonstantinou"
+            title= " Μεσα στην κοιλαδα των Τεμπων"
+            image = "https://www.larisanews.gr/wp-content/uploads/2013/03/tempi1-525.gif"
+            />
         </div>
     )
 }
